@@ -24,29 +24,42 @@ with open(file_to_load) as election_data:
    for row in file_reader:
       total_votes +=1
       #Good info below 
-      #The standard Python format to increment a variable is number = number + 1, which can be augmented to number += 1.
+      #The standard Python format to increment a variable is 
+      # number = number + 1, which can be augmented to number += 1.
       candidate_name=row[2]
       if candidate_name not in candidate_options:
          candidate_options.append(candidate_name)
          #tracking count
          candidate_votes[candidate_name] = 0
       candidate_votes[candidate_name] += 1
-      
-print(candidate_votes)
-for candidate_name in candidate_votes:
-   votes= candidate_votes[candidate_name]
-   vote_percentage = float(votes)/ float(total_votes)*100
-   print(f"{candidate_name}: received {vote_percentage:.2f}% of the vote.")
-   if (votes > winning_count) and (vote_percentage >winning_percentage):
+with open(file_to_save, "w") as txt_file:
+   election_results = (
+      f"\nElection Results\n"
+      f"-------------------------\n"
+      f"Total Votes: {total_votes:,}\n"
+      f"-------------------------\n")
+   print(election_results, end="")
+    # Save the final vote count to the text file.
+   txt_file.write(election_results)
+   for candidate_name in candidate_votes:
+      votes= candidate_votes[candidate_name]
+      vote_percentage = float(votes)/ float(total_votes)*100
+      candidate_results=(f"{candidate_name}: received {vote_percentage:.2f}% of the vote.")
+      print(candidate_results)
+      txt_file.write(candidate_results)
+      if (votes > winning_count) and (vote_percentage >winning_percentage):
          winning_count= votes
          winning_percentage= vote_percentage
          winning_candidate= candidate_name
-   print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+   #print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+   #why is it only showing raymon and not the other 2 candidates in the txt?
    winning_candidate_summary = (
-    f"-------------------------\n"
-    f"Winner: {winning_candidate}\n"
-    f"Winning Vote Count: {winning_count:,}\n"
-    f"Winning Percentage: {winning_percentage:.1f}%\n"
-    f"-------------------------\n")
-print(winning_candidate_summary)
-#rem, when commiting to git write "git add ." otherwise youll get an error 
+      f"-------------------------\n"
+      f"Winner: {winning_candidate}\n"
+      f"Winning Vote Count: {winning_count:,}\n"
+      f"Winning Percentage: {winning_percentage:.1f}%\n"
+      f"-------------------------\n")
+   print(winning_candidate_summary)
+   txt_file.write(winning_candidate_summary)
+# # rem, when commiting to git write "git add ." the periods important 
+# #  otherwise youll get an error 
