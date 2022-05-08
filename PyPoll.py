@@ -20,7 +20,7 @@ county_votes = {}
 
 # Track the winning candidate, vote count and percentage
 winning_candidate = ""
-winning_county_name= '"'
+winning_county_name= ""
 winning_count = 0
 winning_percentage = 0
 winning_county = 0
