@@ -16,7 +16,7 @@ Total votes cast in the congressional election
 *	Arapahoe county 6.7% of the votes with a total of 24,801 votes. 
 ![](images/County_Votes.png)
 
-# Largest Turnout (County)
+# Largest Turnout County
 *	The County with the largest total votes was Denver, with 82.8% (306,055 votes).
 ![](images/Largest_county_turnover.png)
 
