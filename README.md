@@ -11,24 +11,24 @@ Total votes cast in the congressional election
 Image of code 
 
 # Total votes and their percentages per County 
-•	Jefferson county had 10.5% of the votes with a total of 38,855 votes.
-•	Denver county had 82.8% of the votes with a total of 306,055 votes.
-•	Arapahoe county 6.7% of the votes with a total of 24,801 votes. 
+*	Jefferson county had 10.5% of the votes with a total of 38,855 votes.
+*	Denver county had 82.8% of the votes with a total of 306,055 votes.
+*	Arapahoe county 6.7% of the votes with a total of 24,801 votes. 
 Image of code 
 
 # Largest Turnout (County)
-•	The County with the largest total votes was Denver, with 82.8% (306,055 votes).
+*	The County with the largest total votes was Denver, with 82.8% (306,055 votes).
 Image of code 
 
 # Total votes and their percentages per Candidate 
-•	Charles Casper Stockham had 23.0% of the votes, with a total of 85,213 votes. 
-•	Diana DeGette had 73.8% of the votes, with a total of272,892 votes.
-•	Raymon Anthony Doane had 3.1% of the votes, with a total of 11,606 votes.
+*	Charles Casper Stockham had 23.0% of the votes, with a total of 85,213 votes. 
+*	Diana DeGette had 73.8% of the votes, with a total of272,892 votes.
+*	Raymon Anthony Doane had 3.1% of the votes, with a total of 11,606 votes.
 Image of code 
 
  
 # Winning Candidate
-•	The winner of the election was Diana DeGette, who had 73.8% of the votes and 272, 892 of the total votes! 
+*	The winner of the election was Diana DeGette, who had 73.8% of the votes and 272, 892 of the total votes! 
 Image of code 
 
 # Text File of the Election Results 
