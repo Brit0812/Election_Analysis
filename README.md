@@ -5,9 +5,9 @@ The purpose of this election audit is to provide a written analysis to the elect
 
 
 # Election Audit Results and their Code:
-
+***
 Total votes cast in the congressional election 
-•	The total congressional votes cast was 369,711
+* The total congressional votes cast was 369,711
 Image of code 
 
 # Total votes and their percentages per County 
