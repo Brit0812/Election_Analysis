@@ -34,5 +34,4 @@ Image of code
 # Text File of the Election Results 
 Image
 
-
 #Election Audit Summary 
