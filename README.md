@@ -35,3 +35,4 @@ Total votes cast in the congressional election
 ![](images/Election_Analysis_Txt_File.png)
 
 # Election Audit Summary 
+This script could be used for any election as it easily gathers the total votes and percentages for each county and candidate, and determines the winner of the overall election. A possible modification to the script would be to include the stats of each candidate in all of the counties: this could include the voter percentages of each county. This modification could prove useful in future elections to see which county prefers a certain candidate. Another addition or modification to the script could include the population of each county and their demographics. While filtering through demographics of the population seems tedious, it could prove beneficial to the candidate’s campaign. 
