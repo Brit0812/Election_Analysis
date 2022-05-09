@@ -8,13 +8,13 @@ The purpose of this election audit is to provide a written analysis to the elect
 ***
 Total votes cast in the congressional election 
 * The total congressional votes cast was 369,711
-Image of code 
+![](images/Election_Results.png)
 
 # Total votes and their percentages per County 
 *	Jefferson county had 10.5% of the votes with a total of 38,855 votes.
 *	Denver county had 82.8% of the votes with a total of 306,055 votes.
 *	Arapahoe county 6.7% of the votes with a total of 24,801 votes. 
-Image of code 
+![](images/County_Votes.png)
 
 # Largest Turnout (County)
 *	The County with the largest total votes was Denver, with 82.8% (306,055 votes).
