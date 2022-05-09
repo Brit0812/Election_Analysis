@@ -18,20 +18,20 @@ Total votes cast in the congressional election
 
 # Largest Turnout (County)
 *	The County with the largest total votes was Denver, with 82.8% (306,055 votes).
-Image of code 
+![](images/Largest_county_turnover.png)
 
 # Total votes and their percentages per Candidate 
 *	Charles Casper Stockham had 23.0% of the votes, with a total of 85,213 votes. 
 *	Diana DeGette had 73.8% of the votes, with a total of272,892 votes.
 *	Raymon Anthony Doane had 3.1% of the votes, with a total of 11,606 votes.
-Image of code 
+![](images/Candidate_Votes.png)
 
  
 # Winning Candidate
 *	The winner of the election was Diana DeGette, who had 73.8% of the votes and 272, 892 of the total votes! 
-Image of code 
+![](images/winner_winner.png)
 
 # Text File of the Election Results 
-Image
+![](images/Election_Analysis_Txt_File.png)
 
 #Election Audit Summary 
